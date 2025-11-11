@@ -142,6 +142,9 @@ nav {
   padding-left: 40px !important;
 }
 /* ------------------------footer----------------------------- */
+/* موازنة محاذاة نصوص الهيرو مع اللغة */
+html[dir="ltr"] #hero { text-align: left; }
+html[dir="rtl"] #hero { text-align: right; }
 
 /* ------------------------Media----------------------------- */
 @media screen and (max-width: 992px) {

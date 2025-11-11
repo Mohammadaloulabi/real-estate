@@ -10,6 +10,7 @@
       rel="stylesheet"
     />
     <link
+      id="bs-css"
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
     />
@@ -17,7 +18,7 @@
 
     <title>Dwello</title>
   </head>
-  <!-- --------------------------------------------------------------------- -->
+  <!-- --------------------------------nav------------------------------------- -->
   <body>
     <header class="bg-section position-relative">
       <nav class="navbar navbar-expand-lg position-fixed top-0 w-100 z-2">
@@ -55,6 +56,39 @@
                 <a class="nav-link ms-4" href="#">Contact</a>
               </li>
             </ul>
+
+            <div class="dropdown ms-lg-3">
+              <button
+                class="me-3 text-style-light bg-transparent border-0 btn-sm dropdown-toggle"
+                type="button"
+                id="langMenu"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Language
+              </button>
+              <ul
+                class="dropdown-menu dropdown-menu-end"
+                aria-labelledby="langMenu"
+              >
+                <li>
+                  <button
+                    class="text-style-light dropdown-item lang-opt"
+                    data-lang="en"
+                  >
+                    English
+                  </button>
+                </li>
+                <li>
+                  <button
+                    class="text-style-light dropdown-item lang-opt"
+                    data-lang="ar"
+                  >
+                    العربية
+                  </button>
+                </li>
+              </ul>
+            </div>
             <div class="burger-btn d-flex align-items-center gap-3">
               <img src="assets\images\search.png" alt="" />
               <img src="assets\images\user.png" alt="" />
@@ -64,16 +98,20 @@
         </div>
       </nav>
       <!-- ----------------------------hero------------------------------- -->
-      <div class="container hero w-100">
+      <div id="hero" class="container hero w-100">
         <div class="row align-items-center">
           <div class="col-lg-5 col-sm-12">
             <div class="d-flex flex-column gap-4">
-              <h1 class="h1-style">Find Your Dream Home</h1>
-              <p class="text-style">
+              <h1 class="h1-style" data-i18n="hero.title">
+                Find Your Dream Home
+              </h1>
+              <p class="text-style" data-i18n="hero.subtitle">
                 Explore our curated selection of exquisite properties
                 meticulously tailored to your unique dream home vision
               </p>
-              <button class="btn-hero text-white">sign up</button>
+              <button class="btn-hero text-white" data-i18n="hero.cta">
+                sign up
+              </button>
             </div>
           </div>
           <div class="col-lg-7 col-sm-12">
