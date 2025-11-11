@@ -10,6 +10,11 @@
       rel="stylesheet"
     />
     <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <link
       id="bs-css"
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
@@ -45,18 +50,28 @@
               class="navbar-nav mx-auto mb-2 mb-lg-0 text-style align-items-center"
             >
               <li class="nav-item">
-                <a class="nav-link ms-4 active" aria-current="page" href="#" data-i18n="nav.home"
+                <a
+                  class="nav-link ms-4 active"
+                  aria-current="page"
+                  href="#"
+                  data-i18n="nav.home"
                   >Home</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link ms-4" href="#" data-i18n="nav.service">Service</a>
+                <a class="nav-link ms-4" href="#" data-i18n="nav.service"
+                  >Service</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link ms-4" href="#" data-i18n="nav.agents">Agents</a>
+                <a class="nav-link ms-4" href="#" data-i18n="nav.agents"
+                  >Agents</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link ms-4" href="#" data-i18n="nav.contact">Contact</a>
+                <a class="nav-link ms-4" href="#" data-i18n="nav.contact"
+                  >Contact</a
+                >
               </li>
             </ul>
 
@@ -96,7 +111,13 @@
             <div class="burger-btn d-flex align-items-center gap-3">
               <img src="assets\images\search.png" alt="" />
               <img src="assets\images\user.png" alt="" />
-              <button type="button" class="btn-nav text-white" data-i18n="common.signup">Sign up</button>
+              <button
+                type="button"
+                class="btn-nav text-white"
+                data-i18n="common.signup"
+              >
+                Sign up
+              </button>
             </div>
           </div>
         </div>
@@ -369,6 +390,277 @@
       <h2 class="w-50 mx-auto header-style text-center pt-5">
         What People Say About Dwello
       </h2>
+
+      <div class="container mt-5">
+        <!-- بداية السلايدر -->
+        <div class="swiper testimonials-swiper">
+          <div class="swiper-wrapper">
+            <!-- ضع بطاقتك هنا داخل شريحة -->
+            <div class="swiper-slide">
+              <!-- بطاقة جاهزة من عندك (اترك ستايلها كما هو) -->
+              <!-- مثال فقط: <div class="your-card"> ... </div> -->
+              <div class="card border-0 mb-2">
+                <img
+                  src="assets\images\Group 15.png"
+                  class="w-100 rounded-top-4"
+                  alt="..."
+                />
+                <div class="card-body bg-content rounded-bottom-4">
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div class="d-flex align-items-center gap-3">
+                      <img
+                        class="rounded-circle"
+                        src="assets\images\image (35) 1.png"
+                        alt=""
+                      />
+                      <div class="">
+                        <p class="text-style m-0">Sarah Nguyen</p>
+                        <p class="text-style-light">San Francisco</p>
+                      </div>
+                    </div>
+                    <img
+                      class="star-img"
+                      src="assets\images\Group 16.png"
+                      alt=""
+                    />
+                  </div>
+                  <p class="text-style-light mt-3">
+                    Dwello truly cares about their clients. They listened to my
+                    needs and preferences and helped me find the perfect home in
+                    the Bay Area. Their professionalism and attention to detail
+                    are unmatched.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- شريحة ثانية -->
+            <div class="swiper-slide">
+              <!-- your card -->
+              <div class="card border-0 mb-2">
+                <img
+                  src="assets\images\Group 15 (1).png"
+                  class="w-100 rounded-top-4"
+                  alt="..."
+                />
+                <div class="card-body bg-content rounded-bottom-4">
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div class="d-flex align-items-center gap-3">
+                      <img
+                        class="rounded-circle"
+                        src="assets\images\image (39) 1.png"
+                        alt=""
+                      />
+                      <div class="">
+                        <p class="text-style m-0">Michael Rodriguez</p>
+                        <p class="text-style-light">San Diego</p>
+                      </div>
+                    </div>
+                    <img
+                      class="star-img"
+                      src="assets\images\Group 16.png"
+                      alt=""
+                    />
+                  </div>
+                  <p class="text-style-light mt-3">
+                    Dwello truly cares about their clients. They listened to my
+                    needs and preferences and helped me find the perfect home in
+                    the Bay Area. Their professionalism and attention to detail
+                    are unmatched.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- شريحة ثالثة -->
+            <div class="swiper-slide">
+              <!-- your card -->
+              <div class="card border-0 mb-2">
+                <img
+                  src="assets\images\Group 15 (2).png"
+                  class="w-100 rounded-top-4"
+                  alt="..."
+                />
+                <div class="card-body bg-content rounded-bottom-4">
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div class="d-flex align-items-center gap-3">
+                      <img
+                        class="rounded-circle"
+                        src="assets\images\image (31) 1.png"
+                        alt=""
+                      />
+                      <div class="">
+                        <p class="text-style m-0">Emily Johnson</p>
+                        <p class="text-style-light">Los Angeles</p>
+                      </div>
+                    </div>
+                    <img
+                      class="star-img"
+                      src="assets\images\Group 16.png"
+                      alt=""
+                    />
+                  </div>
+                  <p class="text-style-light mt-3">
+                    Dwello truly cares about their clients. They listened to my
+                    needs and preferences and helped me find the perfect home in
+                    the Bay Area. Their professionalism and attention to detail
+                    are unmatched.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- ------- -->
+             <div class="swiper-slide">
+              <!-- بطاقة جاهزة من عندك (اترك ستايلها كما هو) -->
+              <!-- مثال فقط: <div class="your-card"> ... </div> -->
+              <div class="card border-0 mb-2">
+                <img
+                  src="assets\images\Group 15.png"
+                  class="w-100 rounded-top-4"
+                  alt="..."
+                />
+                <div class="card-body bg-content rounded-bottom-4">
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div class="d-flex align-items-center gap-3">
+                      <img
+                        class="rounded-circle"
+                        src="assets\images\image (35) 1.png"
+                        alt=""
+                      />
+                      <div class="">
+                        <p class="text-style m-0">Sarah Nguyen</p>
+                        <p class="text-style-light">San Francisco</p>
+                      </div>
+                    </div>
+                    <img
+                      class="star-img"
+                      src="assets\images\Group 16.png"
+                      alt=""
+                    />
+                  </div>
+                  <p class="text-style-light mt-3">
+                    Dwello truly cares about their clients. They listened to my
+                    needs and preferences and helped me find the perfect home in
+                    the Bay Area. Their professionalism and attention to detail
+                    are unmatched.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- شريحة ثانية -->
+            <div class="swiper-slide">
+              <!-- your card -->
+              <div class="card border-0 mb-2">
+                <img
+                  src="assets\images\Group 15 (1).png"
+                  class="w-100 rounded-top-4"
+                  alt="..."
+                />
+                <div class="card-body bg-content rounded-bottom-4">
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div class="d-flex align-items-center gap-3">
+                      <img
+                        class="rounded-circle"
+                        src="assets\images\image (39) 1.png"
+                        alt=""
+                      />
+                      <div class="">
+                        <p class="text-style m-0">Michael Rodriguez</p>
+                        <p class="text-style-light">San Diego</p>
+                      </div>
+                    </div>
+                    <img
+                      class="star-img"
+                      src="assets\images\Group 16.png"
+                      alt=""
+                    />
+                  </div>
+                  <p class="text-style-light mt-3">
+                    Dwello truly cares about their clients. They listened to my
+                    needs and preferences and helped me find the perfect home in
+                    the Bay Area. Their professionalism and attention to detail
+                    are unmatched.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- شريحة ثالثة -->
+            <div class="swiper-slide">
+              <!-- your card -->
+              <div class="card border-0 mb-2">
+                <img
+                  src="assets\images\Group 15 (2).png"
+                  class="w-100 rounded-top-4"
+                  alt="..."
+                />
+                <div class="card-body bg-content rounded-bottom-4">
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div class="d-flex align-items-center gap-3">
+                      <img
+                        class="rounded-circle"
+                        src="assets\images\image (31) 1.png"
+                        alt=""
+                      />
+                      <div class="">
+                        <p class="text-style m-0">Emily Johnson</p>
+                        <p class="text-style-light">Los Angeles</p>
+                      </div>
+                    </div>
+                    <img
+                      class="star-img"
+                      src="assets\images\Group 16.png"
+                      alt=""
+                    />
+                  </div>
+                  <p class="text-style-light mt-3">
+                    Dwello truly cares about their clients. They listened to my
+                    needs and preferences and helped me find the perfect home in
+                    the Bay Area. Their professionalism and attention to detail
+                    are unmatched.
+                  </p>
+                </div>
+              </div>
+            </div>
+            
+
+            <!-- أضف باقي الشرائح كما تشاء -->
+          </div>
+
+          <!-- (اختياري) نقاط -->
+          <!-- <div class="swiper-pagination"></div> -->
+        </div>
+        <!-- نهاية السلايدر -->
+
+        <!-- أزرار تنقل خارجية أسفل السلايدر -->
+        <div class="slider-controls">
+          <button class="nav-btn prev" type="button" aria-label="السابق">
+            ‹
+          </button>
+          <button class="nav-btn next" type="button" aria-label="التالي">
+            ›
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- -------------------------- -->
+    <!-- <section id="slider" class="bg-section margin-top pb-5">
+      <h2 class="w-50 mx-auto header-style text-center pt-5">
+        What People Say About Dwello
+      </h2>
       <div class="container margin-top">
         <div class="row mx-auto justify-content-center w-100">
           <div class="col-lg-4 col-sm-10">
@@ -478,7 +770,8 @@
           </div>
         </div>
       </div>
-    </section>
+    </section>  -->
+
     <!-- ----------------------------Questions-------------------------------- -->
     <section id="questions">
       <div class="container margin-top">
@@ -572,6 +865,7 @@
       </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="./assets/script/script.js"></script>
   </body>
 </html>
