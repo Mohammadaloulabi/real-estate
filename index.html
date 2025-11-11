@@ -21,10 +21,13 @@
   <!-- --------------------------------nav------------------------------------- -->
   <body>
     <header class="bg-section position-relative">
-      <nav class="navbar navbar-expand-lg position-fixed top-0 w-100 z-2">
+      <nav
+        id="nav"
+        class="navbar navbar-expand-lg position-fixed top-0 w-100 z-2"
+      >
         <div class="container">
           <a class="navbar-brand m-0 p-0" href="#"
-            ><img src="./assets/images/logo (1).png" alt=""
+            ><img src="./assets/images/logo (1).png" alt="Dwello"
           /></a>
           <button
             class="navbar-toggler shadow-none border-0"
@@ -42,18 +45,18 @@
               class="navbar-nav mx-auto mb-2 mb-lg-0 text-style align-items-center"
             >
               <li class="nav-item">
-                <a class="nav-link ms-4 active" aria-current="page" href="#"
+                <a class="nav-link ms-4 active" aria-current="page" href="#" data-i18n="nav.home"
                   >Home</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link ms-4" href="#">Service</a>
+                <a class="nav-link ms-4" href="#" data-i18n="nav.service">Service</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link ms-4" href="#">Agents</a>
+                <a class="nav-link ms-4" href="#" data-i18n="nav.agents">Agents</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link ms-4" href="#">Contact</a>
+                <a class="nav-link ms-4" href="#" data-i18n="nav.contact">Contact</a>
               </li>
             </ul>
 
@@ -64,6 +67,7 @@
                 id="langMenu"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
+                data-i18n="nav.language"
               >
                 Language
               </button>
@@ -92,7 +96,7 @@
             <div class="burger-btn d-flex align-items-center gap-3">
               <img src="assets\images\search.png" alt="" />
               <img src="assets\images\user.png" alt="" />
-              <button type="button" class="btn-nav text-white">Sign up</button>
+              <button type="button" class="btn-nav text-white" data-i18n="common.signup">Sign up</button>
             </div>
           </div>
         </div>
