@@ -102,6 +102,7 @@ nav {
   width: 900px;
   bottom: 0;
   left: 0;
+  transform: scale(1.2);
 }
 .hero-img {
   width: 100%;
