@@ -239,4 +239,9 @@ html[dir="rtl"] #hero {
   .mobile-center {
     text-align: center !important;
   }
+  .hero-img {
+ 
+  transform: scale(0.9);
+
+}
 }
